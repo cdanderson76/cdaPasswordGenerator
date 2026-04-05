@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/x-icon" href="./images/scrimba.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <title>Password Generator</title>
 </head>
 <body>
-  <main>
+  <main class="main-container">
     <!-- TITLE HEADINGS -->
-    <section>
-      <h1>Generate a random password</h1>
+    <section class="header">
+      <h1 class="title">Generate a <span class="password-title">random password</span></h1>
       <h2>Never use an insecure password again</h2>
-      <button>Generate passwords</button>
+      <button class="btn">Generate passwords</button>
+      <hr>
     </section>
 
     <!-- OUTPUT SECTION -->
-    <section>
-
+    <section class="output-container">
+      <div class="output"></div>
+      <div class="output"></div>
     </section>
   </main>
   <script src="script.js"></script>

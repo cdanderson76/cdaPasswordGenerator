@@ -16,7 +16,6 @@ function generatePassword() {
     const randNum = Math.floor(Math.random() * characters.length);
     passwordArray.push(characters[randNum]);
   }
-  console.log(passwordArray)
 }
 
 generatePassword()

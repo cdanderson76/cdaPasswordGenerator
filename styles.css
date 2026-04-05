@@ -14,4 +14,71 @@ body {
    justify-content: center;
    align-items: center;
    min-height: 100vh;
+   color: #fff;
+   font-family: "Karla", sans-serif;
+}
+
+.main-container {
+  background-color: #1F2937;
+  padding-top: 90px;
+  padding-left: 35px;
+}
+
+.password-title, .title {
+  letter-spacing: -2.5%;
+}
+
+.password-title {
+  display: block;
+  color: #4ADF86
+}
+
+.header {
+  max-width: 100%;
+  width: 550px;
+  border-bottom: none;
+}
+
+.title {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: -1.5%;
+  color: #e7e7e7;
+  margin-bottom: 35px;
+}
+
+hr {
+  width: 446px;
+  border-color: #273549;
+}
+
+.btn {
+  background-color: #10B981;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  padding: 8px 18px;
+  border-radius: 4px;
+}
+
+.output-container {
+  display: flex;
+  justify-content: space-around;
+  border-top: none;
+}
+
+.output {
+  width: 211px;
+  height: 39px;
+  background-color: #273549;
+  border-radius: 6px;
+}
+
+.btn:focus {
+  outline: none;
 }
