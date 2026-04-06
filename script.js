@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return password
   }
 
-    //EVENT LISTENER
+  //EVENT LISTENER
 
   btnEl.addEventListener('click', function() {
     outputOneEl.textContent = generatePassword()
