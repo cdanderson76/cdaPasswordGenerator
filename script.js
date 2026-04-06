@@ -17,7 +17,7 @@ btnEl.addEventListener('click', function() {
   const passwordArrayOne = [];
   const passwordArrayTwo = [];
 
-  for( i = 0; i < 15; i++ ) {
+  for( let i = 0; i < 15; i++ ) {
 
     const randNum = Math.floor(Math.random() * characters.length)
     const randNumTwo = Math.floor(Math.random() * characters.length)
