@@ -24,11 +24,10 @@ btnEl.addEventListener('click', function() {
 
     passwordArrayOne.push(characters[randNum])
     passwordArrayTwo.push(characters[randNumTwo])
-
-    outputOneEl.textContent = passwordArrayOne.join('')
-    outputTwoEl.textContent = passwordArrayTwo.join('')
-    console.log(passwordArrayOne)
+    
   }
+  outputOneEl.textContent = passwordArrayOne.join('')
+  outputTwoEl.textContent = passwordArrayTwo.join('')
 })
 
 
