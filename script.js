@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //GENERATE PASSWORD
 
-function generatePassword {
+function generatePassword() {
 
   let password = ''
   
