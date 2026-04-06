@@ -12,23 +12,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //GENERATE PASSWORD
 
-btnEl.addEventListener('click', function() {
+function generatePassword {
 
-  const passwordArrayOne = [];
-  const passwordArrayTwo = [];
-
+  let password = ''
+  
   for( let i = 0; i < 15; i++ ) {
-
     const randNum = Math.floor(Math.random() * characters.length)
-    const randNumTwo = Math.floor(Math.random() * characters.length)
-
-    passwordArrayOne.push(characters[randNum])
-    passwordArrayTwo.push(characters[randNumTwo])
-    
+    password += characters[randNum]
   }
-  outputOneEl.textContent = passwordArrayOne.join('')
-  outputTwoEl.textContent = passwordArrayTwo.join('')
-})
+}
 
+  //EVENT LISTENER
 
+btnEl.addEventListener('click', function() {
+  outputOneEl.textContent = generatePassword()
+  outputTwoEl.textContent = generatePassword()
 })
