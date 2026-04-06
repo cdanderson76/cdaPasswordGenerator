@@ -16,12 +16,15 @@ body {
    min-height: 100vh;
    color: #fff;
    font-family: "Karla", sans-serif;
+   background-color: rgb(207, 207, 207);
 }
 
 .main-container {
   background-color: #1F2937;
   padding-top: 90px;
-  padding-left: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 90px;
 }
 
 .password-title, .title {
@@ -34,8 +37,7 @@ body {
 }
 
 .header {
-  max-width: 100%;
-  width: 550px;
+  width: 446px;
   border-bottom: none;
 }
 
@@ -54,7 +56,9 @@ h2 {
 
 hr {
   width: 446px;
+  margin: 0 auto;
   border-color: #273549;
+  margin-bottom: 35px;
 }
 
 .btn {
@@ -64,17 +68,25 @@ hr {
   font-family: inherit;
   padding: 8px 18px;
   border-radius: 4px;
+  margin-bottom: 25px;
 }
 
 .output-container {
   display: flex;
-  justify-content: space-around;
+  width: 446px;
+  justify-content: space-between;
   border-top: none;
 }
 
 .output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 211px;
   height: 39px;
+  color: #55F991;
+  font-size: 16px;
+  font-size: medium;
   background-color: #273549;
   border-radius: 6px;
 }
